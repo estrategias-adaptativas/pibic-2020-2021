@@ -1,7 +1,10 @@
 ---
-title    : "Arqueologia da morada suburbana na rua do Rosário, Luziânia"
-author   : "Mariana Azevedo Silva"
-date     : 2020-04-13
+title : "Arqueologia da morada suburbana na rua do Rosário, Luziânia"
+author: "Mariana Azevedo Silva"
+date  : 2020-04-13
+csl   : 'styles/associacao-brasileira-de-normas-tecnicas.csl'
+nocite: "@*"
+bibliography: "pibic21-luziania.bib"
 ---
 
 Objetivos, problema e justificativa
