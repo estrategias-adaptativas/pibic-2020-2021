@@ -195,5 +195,16 @@ curso de Arquitetura e Urbanismo.
 Cronograma
 ==========
 
-Mês a mês
+ 1. Sistematização da bibliografia e proposta preliminar de tipologia.
+ 2. Sistematização da bibliografia e proposta preliminar de tipologia.
+ 3. Levantamento documental preparatório. Escolha de estudos de caso
+ 4. Levantamento documental preparatório. Escolha de estudos de caso
+ 5. Levantamento documental e arquivístico.
+ 6. Levantamento documental e arquivístico.
+ 7. Levantamentos de campo e modelagem.
+ 8. Levantamentos de campo e modelagem.
+ 9. Levantamentos de campo e modelagem. Análise e reclassificação tipológica.
+10. Análise morfológica e sistematização final da tipologia.
+11. Análise morfológica e sistematização final da tipologia.
+12. Redação e revisão do relatório.
 
