@@ -1,5 +1,5 @@
 ---
-title : Projeto de pesquisa
+title : Iniciação científica e tecnológica
 date  : 2020-05-04
 lang  : pt
 nocite: "@*"
@@ -8,20 +8,24 @@ bibliography: 'projeto.bib'
 suppress-bibliography: false
 ---
 
-Planos de trabalho de iniciação científica
-==========================================
+Planos de trabalho
+==================
 
+### Iniciação científica
+
+- [Distribuições da morada eclética em Goiás](pibic21-distrib.md):
+  Flávia Rosa de la Plata
+- [Arqueologia da casa da fazenda Velha, Distrito Federal](pibic21-fazvelha.md):
+  Tainá Lourenço de Abreu
+
+### Iniciação tecnológica
 
 - [Arqueologia da casa da fazenda Gama](pibic21-gama.md):
   Ana Caroline dos Santos Paiva 
-- [Distribuições da morada eclética em Goiás](pibic21-distrib.md):
-  Flávia Rosa de la Plata
 - [Tipologias de fundações na construção tradicional do Brasil central](pibic21-fundacoes.md):
   Iriani Jéssica Pinto Ganga
 - [Arqueologia da morada suburbana na rua do Rosário, Luziânia](pibic21-luziania.md):
   Mariana de Fátima Macedo Nunes de Azevedo
-- [Arqueologia da casa da fazenda Velha, Distrito Federal](pibic21-fazvelha.md):
-  Tainá Lourenço de Abreu
 
 Resiliência urbana: estratégias adaptativas na construção tradicional
 =====================================================================
@@ -38,6 +42,7 @@ sobre três escalas da produção do tecido edificado: configurações de
 parcelamento do solo, morfologias espaciais na edilícia de base --- os
 tipos de edificações mais difundidos, como habitações, comércios e
 oficinas de pequeno porte ---, e sistemas construtivos vernáculos.
+
 A fundação e o crescimento de núcleos urbanos no Brasil de finais do
 período colonial até os primórdios da industrialização apresentam um
 panorama de ações descentralizadas, com reduzida tutela do Estado, e
@@ -91,6 +96,10 @@ Objetivo geral
   ordem emergente.
 
 Objetivos específicos
+
+: Estabelecer um protocolo de boas práticas em levantamento
+  arquitetônico e fotogrametria digital por meio de equipamentos de
+  baixo custo e software livre.
 
 : Conceituar ontologias de elementos espaciais e componentes
   construtivos históricos, aptas a serem representadas e analisadas em
@@ -194,20 +203,6 @@ recorrentes do seu modelo de classificação. Essas adaptações serão
 mediadas pelo instrumental analítico dos estudos morfológicos
 urbanísticos e arquitetônicos.
 
-Realizar uma pesquisa histórica desafia
-o paradigma indiciário das ciências sociais. Séries de dados
-quantitativos tornam-se tanto menos confiáveis, se não desaparecem por
-completo, quanto mais o objeto da pesquisa recua no tempo e se afasta
-dos grandes centros administrativos e econômicos. Mesmo registros
-descritivos, de natureza qualitativa, tornam-se esparsos quando o objeto
-em questão é o conjunto de processos, técnicas e produtos vernáculos,
-alheio à alta cultura letrada e à tecnocracia administrativa e
-acadêmica. O caráter disperso e fragmentário do acervo edificado
-histórico, vítima de repetidos ciclos de renovação urbana, dificulta
-ainda mais a aquisição de séries amostrais representativas, em que pesem
-os esforços de compilação documental realizados em alguns contextos
-[@bueno:2012sistema20].
-
 A constituição do acervo documental necessário a qualquer análise será,
 portanto, nossa primeira e principal preocupação. Levantamentos
 arquitetônicos existentes se encontram dispersos em arquivos e, por
@@ -251,6 +246,14 @@ emprego de sistemas de Historic Building Information Modeling (HBIM). No
 HBIM, a representação tridimensional da edificação serve como suporte
 para a inclusão de informações semânticas, mas também para a modelagem e
 avaliação de cenários e prognósticos [@pocobelli:2018buildingXLII].
+
+A documentação detalhada de algumas edificações representativas será a
+oportunidade de avaliar a viabilidade geral de métodos e boas práticas
+em levantamento físico não invasivo e fotogrametria digital. Buscamos
+validar um protocolo de documentação baseado em equipamentos de baixo
+custo e software livre, que permitam replicar e ampliar o universo
+documental, bem como oferecer fundamentos instrumentais para pesquisas
+futuras.
 
 Os resultados alcançados em cada escala de análise devem ser
 interpretados de modo sistêmico, atentando para as relações entre o
