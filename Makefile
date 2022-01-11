@@ -15,6 +15,8 @@ vpath default.% lib/templates:lib/pandoc-templates
 # ------
 SRC   = $(filter-out README.md,$(wildcard *.md))
 DOCS := $(patsubst %.md,tmp/%.md, $(SRC))
+PANDOC := docker run --rm -u "`id -u`:`id -g`" -v "`pwd`:/data" \
+	  palazzo/pandoc-unb:2.16.1
 
 local-build : pandoc
 	@if ! git diff-index --quiet HEAD --; then \
@@ -25,6 +27,9 @@ local-build : pandoc
 		-v "`pwd`:/srv/jekyll" -it jekyll/jekyll:3.8.5 \
 		jekyll serve
 	git reset --hard HEAD
+
+%.pdf : _spec/letter.yaml %.md
+	$(PANDOC) -o $@ -d $^
 
 pandoc : $(DOCS)
 	@-rm -rf styles
