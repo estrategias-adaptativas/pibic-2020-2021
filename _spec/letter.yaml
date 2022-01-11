@@ -1,0 +1,57 @@
+# This is very specific and may not work for every case.
+# Consider thinning down and, for example, creating a font package.
+from            : "markdown+raw_tex"
+to              : "latex"
+fail-if-warnings: false
+file-scope      : true
+pdf-engine      : xelatex
+standalone      : true
+variables:
+  documentclass : scrartcl
+  fontsize: 11pt
+  header-includes:
+    - \usepackage{academicons}
+    - \usepackage{scrletter}
+    - \usepackage{multicol}
+    - \setlength{\columnsep}{15pt}
+    - \usepackage{csquotes}
+    - \usepackage[overload]{textcase}
+    - \setkomafont{title}{\sffamily}
+    - \RedeclareSectionCommand[font={\rmfamily\normalfont\large\scshape\MakeLowercase}]{paragraph}
+  include-before:
+    - \let\oldsc\textsc
+    - \renewcommand{\textsc}[1]{\oldsc{\MakeLowercase{#1}}}
+    - \setkomafont{backaddress}{\rmfamily}
+    - \setkomafont{descriptionlabel}{\rmfamily\normalfont}
+    - \setkomafont{lettersubject}{\rmfamily\normalfont}
+    - \setkomavar{backaddress}{}
+    - \setkomavar{fromname}{Pedro P. Palazzo}
+    - \setkomavar{fromemail}[]{palazzo@unb.br | http://labeurbe.unb.br}
+    - \setkomavar{fromlogo}{\XeTeXglyph \XeTeXglyphindex "ass_completa_CONT" \relax}
+    - \setkomavar{fromphone}[]{+55 61 31 07 74 49}
+    - |
+      \setkomavar{signature}{%
+        \\
+        Pedro P. Palazzo%
+      }
+    - |
+      \setkomavar{fromaddress}{%
+        Professor Associado (Associate Professor)\\
+        Faculdade de Arquitetura e Urbanismo\\
+        \XeTeXglyph \XeTeXglyphindex "ass_completa_CONT" \relax%
+      }
+    - |
+      \setkomavar{firstfoot}{%
+        \small{FAU/THAU/PP/2022}
+        \hfill
+        \small{\thepage}
+      }
+  indent: true
+  mainfont: "UnB Pro"
+  sansfont: "UnB Pro-Light"
+  mainfontoptions:
+    - Numbers        = Proportional
+    - BoldFont       = UnBPro-Bold
+    - ItalicFont     = UnBPro-RegularItalic
+    - BoldItalicFont = UnBPro-BoldItalic
+  papersize     : a4
